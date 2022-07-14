@@ -11,7 +11,6 @@ const SearchExercise = () => {
     || exercise.equipment.toLowerCase().includes(search)
     ||  exercise.bodyPart.toLowerCase().includes(search)
 
-     );
     }
   
   return (

@@ -8,7 +8,8 @@ export const exerciseOptions= {
   };
 
  
-
+  }
+};
 
 
 

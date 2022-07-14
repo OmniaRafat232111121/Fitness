@@ -10,8 +10,8 @@ const SearchExercise = () => {
      ||exercise.target.toLowerCase().includes(search)
     || exercise.equipment.toLowerCase().includes(search)
     ||  exercise.bodyPart.toLowerCase().includes(search)
-
-     );
+;
+     )
     }
   
   return (

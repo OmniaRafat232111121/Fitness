@@ -11,8 +11,7 @@ const SearchExercise = () => {
     || exercise.equipment.toLowerCase().includes(search)
     ||  exercise.bodyPart.toLowerCase().includes(search)
 
-     );
-    }
+     )
   
   return (
     <Stack alignItems="center" mt="37px" justifyContent="center" p="20px">
