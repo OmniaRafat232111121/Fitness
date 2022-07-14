@@ -3,7 +3,9 @@ import {Box,Button,Stack,TextField,Typography}  from '@mui/material'
 const SearchExercise = () => {
     const [search,setSearch]=useState("")
     const handleSearch=async()=>{
-      //const exerciseData=await fetchData()
+      if(search){
+      
+      }
 
     }
   
