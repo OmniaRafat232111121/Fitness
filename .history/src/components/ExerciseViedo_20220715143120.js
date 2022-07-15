@@ -1,6 +1,6 @@
 import React from 'react'
-
-const ExerciseViedo = () => {
+import
+const ExerciseViedo = ({exerciseVideo,name}) => {
   return (
     <div>ExerciseViedo</div>
   )
