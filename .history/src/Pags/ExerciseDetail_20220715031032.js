@@ -12,11 +12,11 @@ useEffect(()=>{
 const fetchExerciseDetail=async()=>{
 
 }
-fetchExerciseDetail();
+fetchExerciseDetail()
 },[id])
   return (
     <Box>
-    <Detail  exerciseDetail={exerciseDetail} />
+    <Detail />
   <ExerciseViedo />
  <Similarexercises />
     </Box>

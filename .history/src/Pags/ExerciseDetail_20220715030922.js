@@ -7,16 +7,10 @@ import Similarexercises from '../components/Similarexercises'
 import {exerciseOptions,fetchData} from '../utils/fetchData'
 const ExerciseDetail = () => {
 const [exerciseDetail,setExerciseDetail]=useState({});
-const {id}=useParams();
-useEffect(()=>{
-const fetchExerciseDetail=async()=>{
-
-}
-fetchExerciseDetail();
-},[id])
+const {id}=use
   return (
     <Box>
-    <Detail  exerciseDetail={exerciseDetail} />
+    <Detail />
   <ExerciseViedo />
  <Similarexercises />
     </Box>

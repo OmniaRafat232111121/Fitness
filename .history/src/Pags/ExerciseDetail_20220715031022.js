@@ -10,13 +10,12 @@ const [exerciseDetail,setExerciseDetail]=useState({});
 const {id}=useParams();
 useEffect(()=>{
 const fetchExerciseDetail=async()=>{
-
+  
 }
-fetchExerciseDetail();
 },[id])
   return (
     <Box>
-    <Detail  exerciseDetail={exerciseDetail} />
+    <Detail />
   <ExerciseViedo />
  <Similarexercises />
     </Box>

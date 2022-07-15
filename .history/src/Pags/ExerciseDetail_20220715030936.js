@@ -8,15 +8,10 @@ import {exerciseOptions,fetchData} from '../utils/fetchData'
 const ExerciseDetail = () => {
 const [exerciseDetail,setExerciseDetail]=useState({});
 const {id}=useParams();
-useEffect(()=>{
-const fetchExerciseDetail=async()=>{
-
-}
-fetchExerciseDetail();
-},[id])
+us
   return (
     <Box>
-    <Detail  exerciseDetail={exerciseDetail} />
+    <Detail />
   <ExerciseViedo />
  <Similarexercises />
     </Box>

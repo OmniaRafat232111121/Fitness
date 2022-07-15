@@ -16,7 +16,7 @@ fetchExerciseDetail();
 },[id])
   return (
     <Box>
-    <Detail  exerciseDetail={exerciseDetail} />
+    <Detail  exerciseDetail={exerciseDetail}/>
   <ExerciseViedo />
  <Similarexercises />
     </Box>
