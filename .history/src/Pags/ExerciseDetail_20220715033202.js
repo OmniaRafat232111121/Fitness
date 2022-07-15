@@ -1,12 +1,11 @@
-import React, { useEffect, useState } from 'react';
-import { useParams } from 'react-router-dom';
-import { Box } from '@mui/material';
-
-import { exerciseOptions, fetchData, youtubeOptions } from '../utils/fetchData';
-import Detail from '../components/Detail';
-import ExerciseViedo from '../components/ExerciseViedo';
-
- import SimilarExercises from '../components/SimilarExercises';
+import { Details } from '@mui/icons-material'
+import{Bo}
+import React,{useState,useEffect} from 'react'
+import {useParams} from 'react-router-dom'
+import Detail from '../components/Detail'
+import ExerciseViedo from '../components/ExerciseViedo'
+import Similarexercises from '../components/Similarexercises'
+import {exerciseOptions,fetchData} from '../utils/fetchData'
 const ExerciseDetail = () => {
 const [exerciseDetail,setExerciseDetail]=useState({});
 const {id}=useParams();
@@ -24,8 +23,8 @@ fetchExerciseDetail();
   return (
     <Box>
     <Detail  exerciseDetail={exerciseDetail} />
-     <ExerciseViedo />
-     <SimilarExercises />
+  <ExerciseViedo />
+ <Similarexercises />
     </Box>
   )
 }

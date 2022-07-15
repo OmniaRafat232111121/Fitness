@@ -25,7 +25,6 @@ fetchExerciseDetail();
     <Box>
     <Detail  exerciseDetail={exerciseDetail} />
      <ExerciseViedo />
-     <SimilarExercises />
     </Box>
   )
 }

@@ -6,7 +6,7 @@ import { exerciseOptions, fetchData, youtubeOptions } from '../utils/fetchData';
 import Detail from '../components/Detail';
 import ExerciseViedo from '../components/ExerciseViedo';
 
- import SimilarExercises from '../components/SimilarExercises';
+// import SimilarExercises from '../components/SimilarExercises';
 const ExerciseDetail = () => {
 const [exerciseDetail,setExerciseDetail]=useState({});
 const {id}=useParams();
@@ -25,7 +25,6 @@ fetchExerciseDetail();
     <Box>
     <Detail  exerciseDetail={exerciseDetail} />
      <ExerciseViedo />
-     <SimilarExercises />
     </Box>
   )
 }
