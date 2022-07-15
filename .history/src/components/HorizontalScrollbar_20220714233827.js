@@ -1,0 +1,20 @@
+import React from 'react'
+
+const HorizontalScrollbar = ({data}) => {
+  return (
+    <div>
+    {data.map((item)=>(
+        <Box 
+        key={item.id||item}
+        itemId={item.id||item}
+        key={item.id||item}
+        key={item.id||item}
+        >
+         {item}
+        </Box>
+    ))}
+    </div>
+  )
+}
+
+export default HorizontalScrollbar
