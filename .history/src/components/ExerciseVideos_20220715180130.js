@@ -42,7 +42,7 @@ const ExerciseVideos = ({ exerciseVideos, name }) => {
          <Typography varient="h6" color="#000">
          {item.video.title}
          </Typography>
- 
+
          </Box>
 
         </a>
